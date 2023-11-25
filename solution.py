@@ -1,2 +1,6 @@
 def global_answer():
-    return 6 * 9
+    result = 6 * 9
+    print(result)
+    return result
+
+global_answer()
